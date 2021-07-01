@@ -1,0 +1,49 @@
+{
+  "name": "Project-Bot",
+  "description": "Bot anonymous chat telegram.",
+  "repository": "https://github.com/apisuserbot/Project-Bot",
+  "logo": "https://telegra.ph/file/f9edcf0f82516206171d9.jpg",
+  "keywords": ["Project-Bot", "telegram", "python"],
+  "env": {
+    "ADMIN": {
+      "description": "Isi dengan id admin",
+      "value": ""
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Nama App heroku, Nama App yang paling pertama di isi (liat paling atas)",
+      "required": true
+    },
+    "TOKEN": {
+      "description": "Dapatkan di @botfather",
+      "value": ""
+    },
+    "OWNER": {
+      "description": "Isi dengan username kalian tanpa tanda @",
+      "value": ""
+    },
+    "INSTAGRAM": {
+      "description": "Isi nama instagram kalian dengan contoh (apis_goodboy)",
+      "value": ""
+    },
+    "GROUP_SUPPORT": {
+      "description": "Bikin Sebuah Group Support Untuk Chat Tanpa Harus Menggunakan @ (kalo gak di rubah gapapa)",
+      "required": false,
+      "value": "project_to_chat"
+    },
+    "GROUP_CHAT": {
+      "description": "Isi dengan username group kalian tanpa tanda @ (kalo gak di rubah gapapa)",
+      "required": false,
+      "value": "Cari_Teman_Online_Group"
+    },
+    "PROJECT_NAME": {
+      "description": "Isi dengan nama project bot kalian",
+      "required": false,
+      "value": "PROJECT BOT"
+    },
+    "CHANNEL": {
+      "description": "Isi dengan username channel kalian tanpa tanda @ (kalo gak di rubah gapapa)",
+      "required": false,
+      "value": "Quotes_Channel_Official"
+    }
+  }
+}
